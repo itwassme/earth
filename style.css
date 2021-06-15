@@ -567,6 +567,11 @@ body.seed {
 .home-grid a {
   text-decoration: none;
 }
+@media (max-width: 1440px) {
+  .home-grid {
+    padding: 2rem;
+  }
+}
 
 .project-1 {
   grid-column: 1/3;

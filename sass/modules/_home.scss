@@ -21,6 +21,9 @@ body.seed {
   a {
     text-decoration: none;
   }
+  @media (max-width: $screen-large) {
+    padding: 2rem;
+  }
 }
 
 .project-1 {
