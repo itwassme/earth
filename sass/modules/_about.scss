@@ -1,0 +1,58 @@
+.about-hero {
+  background-image: url(assets/work2.jpg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-flow: dense;
+  padding: 0;
+  margin-bottom: 6rem;
+  @media (max-width: $screen-large) {
+    padding: 2rem;
+  }
+  @media (max-width: $screen-medium) {
+    margin-bottom: 2rem;
+  }
+  @media (max-width: $screen-mobile) {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.grid-left {
+  grid-column: span 3;
+  white-space: nowrap;
+  height: 100%;
+  @media (max-width: $screen-tablet) {
+    grid-column: span 2;
+    white-space: normal;
+  }
+  @media (max-width: $screen-mobile) {
+    margin-bottom: 1rem;
+  }
+}
+
+.grid-right {
+  grid-column: span 9;
+  @media (max-width: $screen-tablet) {
+    grid-column: span 10;
+  }
+}
+
+.intro {
+  margin-top: 6rem;
+  @media (max-width: $screen-medium) {
+    margin-top: 2rem;
+  }
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media (max-width: $screen-tablet) {
+    display: block;
+  }
+}

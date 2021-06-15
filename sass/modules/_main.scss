@@ -1,0 +1,38 @@
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $black;
+  background-color: #fff;
+}
+
+header,
+section,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // padding: 3rem;
+}
+
+.max-width {
+  width: 1312px;
+  margin-right: auto;
+  margin-left: auto;
+  @media (max-width: $screen-large) {
+    width: 100%;
+    padding: 2rem;
+  }
+  // @media (max-width: $screen-mobile) {
+  //   padding: 1rem;
+  // }
+  // @media (max-width: $screen-small) {
+  //   padding: 0.5rem;
+  // }
+}

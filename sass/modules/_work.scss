@@ -1,0 +1,93 @@
+.filters {
+  @media (max-width: $screen-mobile) {
+    width: 80%;
+  }
+}
+
+.works {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 4rem;
+  @media (max-width: $screen-mobile) {
+    display: block;
+    .aspect-ratio {
+      padding-bottom: 66.6%;
+    }
+  }
+}
+
+.work {
+  p {
+    opacity: 0;
+    transition: opacity 0.1s ease;
+  }
+  &:hover {
+    p {
+      opacity: 1;
+    }
+  }
+  @media (max-width: $screen-mobile) {
+    margin-bottom: 1rem;
+  }
+}
+
+.aspect-ratio--object {
+  background-position: center;
+}
+
+.work1 {
+  background-image: url(assets/work1.jpg);
+}
+
+.work2 {
+  background-image: url(assets/work2.jpg);
+}
+
+.work3 {
+  background-image: url(assets/work3.jpg);
+}
+
+.work4 {
+  background-image: url(assets/work4.jpg);
+}
+
+.work5 {
+  background-image: url(assets/work5.jpg);
+}
+
+.work6 {
+  background-image: url(assets/work6.jpg);
+}
+
+.work7 {
+  background-image: url(assets/work7.jpg);
+}
+
+.work8 {
+  background-image: url(assets/work8.jpg);
+}
+
+.work9 {
+  background-image: url(assets/work9.jpg);
+}
+
+.work10 {
+  background-image: url(assets/work10.jpg);
+}
+
+.work11 {
+  background-image: url(assets/work11.jpeg);
+}
+
+.work12 {
+  background-image: url(assets/work12.jpg);
+}
+
+.vertical {
+  height: 460px;
+  width: 85%;
+  p {
+    align-self: flex-start;
+  }
+}

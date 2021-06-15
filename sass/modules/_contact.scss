@@ -1,0 +1,9 @@
+.contact-hero {
+  background-image: url(assets/contact.jpg);
+}
+
+.contact-text {
+  @media (max-width: $screen-mobile) {
+    flex-direction: column;
+  }
+}
