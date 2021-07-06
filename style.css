@@ -454,7 +454,7 @@ a {
   margin: 0;
   font-family: "Noto Sans KR", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.6rem !important;
   line-height: 1.5;
   letter-spacing: -0.4px;
 }
@@ -707,51 +707,51 @@ body.seed {
 }
 
 .work1 {
-  background-image: url(assets/work1.jpg);
+  background-image: url(assets/project1.png);
 }
 
 .work2 {
-  background-image: url(assets/work2.jpg);
+  background-image: url(assets/project2.png);
 }
 
 .work3 {
-  background-image: url(assets/work3.jpg);
+  background-image: url(assets/project3.png);
 }
 
 .work4 {
-  background-image: url(assets/work4.jpg);
+  background-image: url(assets/project4.png);
 }
 
 .work5 {
-  background-image: url(assets/work5.jpg);
+  background-image: url(assets/project5.png);
 }
 
 .work6 {
-  background-image: url(assets/work6.jpg);
+  background-image: url(assets/project6.png);
 }
 
 .work7 {
-  background-image: url(assets/work7.jpg);
+  background-image: url(assets/project7.png);
 }
 
 .work8 {
-  background-image: url(assets/work8.jpg);
+  background-image: url(assets/project8.png);
 }
 
 .work9 {
-  background-image: url(assets/work9.jpg);
+  background-image: url(assets/project9.png);
 }
 
 .work10 {
-  background-image: url(assets/work10.jpg);
+  background-image: url(assets/project10.png);
 }
 
 .work11 {
-  background-image: url(assets/work11.jpeg);
+  background-image: url(assets/project11.png);
 }
 
 .work12 {
-  background-image: url(assets/work12.jpg);
+  background-image: url(assets/project12.png);
 }
 
 .vertical {

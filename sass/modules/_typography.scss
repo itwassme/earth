@@ -21,7 +21,7 @@ a {
   margin: 0;
   font-family: $main-font;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.6rem !important;
   line-height: 1.5;
   letter-spacing: -0.4px;
   @media (max-width: $screen-medium) {
