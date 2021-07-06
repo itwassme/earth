@@ -43,9 +43,17 @@ a {
   text-decoration: none;
   line-height: 1.2;
   margin-right: 1.5rem;
-  &:hover {
-    text-decoration: underline;
+  &:hover,
+  &.selected {
+    border-bottom: 2px solid #000;
   }
+  &.selected {
+    pointer-events: none;
+  }
+}
+
+.works a:hover {
+  border: none;
 }
 
 ul {
@@ -61,9 +69,4 @@ li {
       margin-right: 0.8rem;
     }
   }
-}
-
-a.selected {
-  text-decoration: underline;
-  pointer-events: none;
 }
