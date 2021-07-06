@@ -467,7 +467,7 @@ h5,
 h6,
 p,
 a {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
 }
 h1,
@@ -931,6 +931,17 @@ header .mobile-menu {
 @media (max-width: 1024px) {
   .hero-grid {
     margin-bottom: 0;
+    grid-template-rows: 4rem 9rem 1fr;
+  }
+  .hero-grid .project-name {
+    grid-column: span 12;
+  }
+  .hero-grid .project-categories {
+    grid-column: span 12;
+  }
+  .hero-grid .project-description {
+    grid-column: span 12;
+    grid-row: 3/4;
   }
 }
 
@@ -940,6 +951,7 @@ header .mobile-menu {
   grid-auto-flow: dense;
   padding: 0;
   margin-bottom: 2rem;
+  gap: 2rem;
 }
 @media (max-width: 1440px) {
   .project-grid {
@@ -957,6 +969,15 @@ header .mobile-menu {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
+  }
+}
+
+.mb-margin-bottom {
+  margin-bottom: 0;
+}
+@media (max-width: 680px) {
+  .mb-margin-bottom {
+    margin-bottom: 3rem;
   }
 }
 
@@ -986,6 +1007,26 @@ header .mobile-menu {
 
 .fb-7 {
   background-image: url(assets/fb7.jpg);
+}
+
+.fb-8 {
+  background-image: url(assets/fb8.jpg);
+}
+
+.fb-9 {
+  background-image: url(assets/fb9.jpg);
+}
+
+.fb-10 {
+  background-image: url(assets/fb10.jpg);
+}
+
+.other-project-1 {
+  background-image: url(assets/project1.png);
+}
+
+.other-project-2 {
+  background-image: url(assets/project3.png);
 }
 
 footer {

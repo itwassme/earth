@@ -28,6 +28,17 @@
   }
   @media (max-width: $screen-medium) {
     margin-bottom: 0;
+    grid-template-rows: 4rem 9rem 1fr;
+    .project-name {
+      grid-column: span 12;
+    }
+    .project-categories {
+      grid-column: span 12;
+    }
+    .project-description {
+      grid-column: span 12;
+      grid-row: 3 / 4;
+    }
   }
 }
 
@@ -37,6 +48,7 @@
   grid-auto-flow: dense;
   padding: 0;
   margin-bottom: 2rem;
+  gap: 2rem;
   @media (max-width: $screen-large) {
     padding: 2rem;
   }
@@ -48,6 +60,14 @@
     display: block;
     width: 100%;
     margin-bottom: 1rem;
+  }
+}
+
+// mobile margin-bottom
+.mb-margin-bottom {
+  margin-bottom: 0;
+  @media (max-width: $screen-mobile) {
+    margin-bottom: 3rem;
   }
 }
 
@@ -78,4 +98,24 @@
 
 .fb-7 {
   background-image: url(assets/fb7.jpg);
+}
+
+.fb-8 {
+  background-image: url(assets/fb8.jpg);
+}
+
+.fb-9 {
+  background-image: url(assets/fb9.jpg);
+}
+
+.fb-10 {
+  background-image: url(assets/fb10.jpg);
+}
+
+.other-project-1 {
+  background-image: url(assets/project1.png);
+}
+
+.other-project-2 {
+  background-image: url(assets/project3.png);
 }
