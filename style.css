@@ -1033,6 +1033,10 @@ header .mobile-menu {
   grid-row: 1/2;
 }
 
+.grid-type-9 {
+  grid-column: 4/13;
+}
+
 .facebook-hero {
   background-image: url(assets/work1.jpg);
 }
@@ -1071,6 +1075,35 @@ header .mobile-menu {
 
 .fb-10 {
   background-image: url(assets/fb10.jpg);
+}
+
+.mangrove-hero {
+  background-image: url(assets/mg1.jpg);
+}
+
+.mg-2 {
+  width: 100%;
+  background-image: url(assets/mg2.jpg);
+}
+
+.mg-3 {
+  width: 100%;
+  background-image: url(assets/mg3.jpg);
+}
+
+.mg-4 {
+  width: 100%;
+  background-image: url(assets/mg4.jpg);
+}
+
+.mg-5 {
+  width: 100%;
+  background-image: url(assets/mg5.jpg);
+}
+
+.mg-6 {
+  width: 100%;
+  background-image: url(assets/mg6.jpg);
 }
 
 .other-projects {
