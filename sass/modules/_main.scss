@@ -29,10 +29,14 @@ footer {
     width: 100%;
     padding: 0 2rem;
   }
+  @media (max-width: $screen-mobile) {
+    margin-bottom: 2rem;
+  }
+}
+
+.intro {
+  margin-top: 6rem;
   // @media (max-width: $screen-mobile) {
-  //   padding: 1rem;
-  // }
-  // @media (max-width: $screen-small) {
-  //   padding: 0.5rem;
+  //   margin-top: 4rem;
   // }
 }

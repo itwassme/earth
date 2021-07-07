@@ -24,10 +24,10 @@
     grid-column: 4 / 13;
   }
   @media (max-width: $screen-large) {
-    padding: 2rem 2rem 0 2rem;
+    padding: 0 2rem;
   }
-  @media (max-width: $screen-medium) {
-    margin-bottom: 0;
+  @media (max-width: $screen-mobile) {
+    margin-bottom: 2rem;
     grid-template-rows: 4rem 9rem 1fr;
     .project-name {
       grid-column: span 12;
@@ -59,16 +59,58 @@
   @media (max-width: $screen-mobile) {
     display: block;
     width: 100%;
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
   }
 }
 
-// mobile margin-bottom
-.mb-margin-bottom {
-  margin-bottom: 0;
-  @media (max-width: $screen-mobile) {
-    margin-bottom: 3rem;
-  }
+.project-grid-2 {
+  grid-template-rows: repeat(4, 200px);
+}
+
+.grid-type-1,
+.grid-type-2,
+.grid-type-3,
+.grid-type-4,
+.grid-type-5,
+.grid-type-6,
+.grid-type-7,
+.grid-type-8 {
+  height: 100%;
+}
+
+.grid-type-1 {
+  grid-column: span 12;
+}
+
+.grid-type-2 {
+  grid-column: 1 / 9;
+}
+
+.grid-type-3 {
+  grid-column: 6 / 11;
+}
+
+.grid-type-4 {
+  grid-column: 8 / 13;
+}
+
+.grid-type-5 {
+  grid-column: 4 / 11;
+}
+
+.grid-type-6 {
+  grid-column: 3 / 6;
+}
+
+.grid-type-7 {
+  grid-column: 1 / 8;
+  grid-row: 3 / 5;
+  margin-bottom: 2rem;
+}
+
+.grid-type-8 {
+  grid-column: 8 / 13;
+  grid-row: 1 / 2;
 }
 
 // facebook
@@ -112,10 +154,42 @@
   background-image: url(assets/fb10.jpg);
 }
 
+// Other projects
+
+.other-projects {
+  grid-template-rows: 40px 1fr;
+  @media (max-width: $screen-mobile) {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+}
+
 .other-project-1 {
   background-image: url(assets/project1.png);
 }
 
 .other-project-2 {
   background-image: url(assets/project3.png);
+}
+
+// mobile half size of image
+@media (max-width: $screen-mobile) {
+  .half-in-mobile {
+    width: 50%;
+  }
+}
+
+// mobile half size position right
+@media (max-width: $screen-mobile) {
+  .right-in-mobile {
+    transform: translateX(100%);
+  }
+}
+
+// mobile margin-bottom
+.mb-margin-bottom {
+  margin-bottom: 0;
+  @media (max-width: $screen-mobile) {
+    margin-bottom: 2rem;
+  }
 }

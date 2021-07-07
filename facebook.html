@@ -23,7 +23,7 @@
 
   <body lang="ko">
     <header class="max-width">
-      <a href="index.html">Home</a>
+      <a class="home-link" href="index.html">Home</a>
       <nav>
         <a href="work.html" class="mr4">Work</a>
         <a href="about.html" class="mr4">About</a>
@@ -84,7 +84,7 @@
     </section>
 
     <section class="max-width project-grid">
-      <div style="grid-column: 1 / 9; height: 100%">
+      <div class="grid-type-2">
         <div class="aspect-ratio aspect-ratio--6x4">
           <div class="aspect-ratio--object cover fb-2"></div>
         </div>
@@ -92,12 +92,12 @@
     </section>
 
     <section class="max-width project-grid">
-      <div class="mb-margin-bottom" style="grid-column: 3 / 6; height: 100%">
+      <div class="grid-type-6 mb-margin-bottom half-in-mobile">
         <div class="aspect-ratio aspect-ratio--3x4">
           <div class="aspect-ratio--object cover fb-3"></div>
         </div>
       </div>
-      <div style="grid-column: 8 / 13; height: 100%">
+      <div class="grid-type-4">
         <div class="aspect-ratio aspect-ratio--6x4">
           <div class="aspect-ratio--object cover fb-4"></div>
         </div>
@@ -105,7 +105,7 @@
     </section>
 
     <section class="max-width project-grid">
-      <div style="grid-column: 6 / 11; height: 100%">
+      <div class="grid-type-3">
         <div class="aspect-ratio aspect-ratio--6x4">
           <div class="aspect-ratio--object cover fb-5"></div>
         </div>
@@ -113,38 +113,28 @@
     </section>
 
     <section class="max-width project-grid">
-      <div style="grid-column: 1 / 9; height: 100%">
+      <div class="grid-type-2">
         <div class="aspect-ratio aspect-ratio--6x4">
           <div class="aspect-ratio--object cover fb-6"></div>
         </div>
       </div>
     </section>
 
-    <section
-      class="max-width project-grid"
-      style="grid-template-rows: repeat(4, 200px)"
-    >
-      <div
-        style="
-          grid-column: 1 / 8;
-          height: 100%;
-          grid-row: 3 / 5;
-          margin-bottom: 3rem;
-        "
-      >
+    <section class="max-width project-grid project-grid-2">
+      <div class="grid-type-7">
         <div class="aspect-ratio aspect-ratio--6x4">
           <div class="aspect-ratio--object cover fb-8"></div>
         </div>
       </div>
-      <div style="grid-column: 8 / 13; height: 100%; grid-row: 1 / 2">
-        <div class="aspect-ratio aspect-ratio--4x6">
+      <div class="half-in-mobile grid-type-8">
+        <div class="aspect-ratio aspect-ratio--4x6 right-in-mobile">
           <div class="aspect-ratio--object cover fb-7"></div>
         </div>
       </div>
     </section>
 
     <section class="max-width project-grid">
-      <div style="grid-column: 8 / 13; height: 100%">
+      <div class="grid-type-4">
         <div class="aspect-ratio aspect-ratio--6x4">
           <div class="aspect-ratio--object cover fb-9"></div>
         </div>
@@ -152,7 +142,7 @@
     </section>
 
     <section class="max-width project-grid">
-      <div style="grid-column: 6 / 11; height: 100%">
+      <div class="grid-type-3">
         <div class="aspect-ratio aspect-ratio--6x4">
           <div class="aspect-ratio--object cover fb-10"></div>
         </div>
@@ -160,7 +150,7 @@
     </section>
 
     <section class="max-width project-grid">
-      <p style="grid-column: 4 / 11; height: 100%; margin-top: 4rem">
+      <p class="grid-type-5">
         Client. FACEBOOK<br />
         Design. 얼스 <br />
         Creative Director. 조진현<br />
@@ -175,10 +165,9 @@
       </p>
     </section>
 
-    <section
-      class="max-width project-grid"
-      style="grid-template-rows: 40px 1fr"
-    >
+    <div class="divider"></div>
+
+    <section class="max-width project-grid other-projects">
       <p style="grid-row: 1 / 2; grid-column: span 12">Other Projects</p>
       <div style="grid-column: 1 / 7; height: 100%; grid-row: 2 / 3">
         <div class="aspect-ratio aspect-ratio--6x4">
