@@ -740,8 +740,8 @@ body.seed {
 .vertical-text-right-kr {
   line-height: 1;
   position: absolute;
-  top: 37px;
-  right: -5rem;
+  right: -4.3rem;
+  top: 32px;
   z-index: 200;
   transform: rotate(90deg);
 }
