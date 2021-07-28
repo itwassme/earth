@@ -591,6 +591,7 @@ body.seed {
 .home-grid a:hover {
   opacity: 0.6;
   text-decoration: none;
+  border: none;
 }
 .home-grid a {
   text-decoration: none;
