@@ -1,104 +1,109 @@
 .filters {
-  a {
-    text-decoration: none;
-  }
-  a:hover {
-    border-bottom: 2px solid #000;
-    padding-bottom: 2px;
-  }
-  a.selected {
-    border-bottom: 2px solid #000000;
-    padding-bottom: 2px;
-  }
-  @media (max-width: $screen-mobile) {
-    width: 80%;
-  }
+ a {
+  text-decoration: none;
+ }
+ a:hover {
+  border-bottom: 2px solid #000;
+  padding-bottom: 2px;
+ }
+ a.selected {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 2px;
+ }
+ @media (max-width: $screen-mobile) {
+  width: 80%;
+ }
 }
 
 .works {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 2rem;
-  grid-row-gap: 4rem;
-  @media (max-width: $screen-mobile) {
-    display: block;
-    .aspect-ratio {
-      padding-bottom: 66.6%;
-    }
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-column-gap: 2rem;
+ grid-row-gap: 4rem;
+ @media (max-width: $screen-mobile) {
+  display: block;
+  .aspect-ratio {
+   padding-bottom: 66.6%;
   }
+ }
 }
 
 .work {
+ p {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+ }
+ &:hover {
   p {
-    opacity: 0;
-    transition: opacity 0.1s ease;
+   opacity: 1;
   }
-  &:hover {
-    p {
-      opacity: 1;
-    }
+ }
+ @media (max-width: $screen-mobile) {
+  width: 100%;
+  margin: 0 0 2rem 0;
+  p {
+   opacity: 1;
+   margin-top: 0.5rem;
   }
-  @media (max-width: $screen-mobile) {
-    margin-bottom: 1rem;
-  }
+ }
 }
 
 .aspect-ratio--object {
-  background-position: center;
+ background-position: center;
 }
 
 .work1 {
-  background-image: url(assets/project1.png);
+ background-image: url(assets/project1.png);
 }
 
 .work2 {
-  background-image: url(assets/project2.png);
+ background-image: url(assets/project2.png);
 }
 
 .work3 {
-  background-image: url(assets/project3.png);
+ background-image: url(assets/project3.png);
 }
 
 .work4 {
-  background-image: url(assets/project4.png);
+ background-image: url(assets/project4.png);
 }
 
 .work5 {
-  background-image: url(assets/project5.png);
+ background-image: url(assets/project5.png);
 }
 
 .work6 {
-  background-image: url(assets/project6.png);
+ background-image: url(assets/project6.png);
 }
 
 .work7 {
-  background-image: url(assets/project7.png);
+ background-image: url(assets/project7.png);
 }
 
 .work8 {
-  background-image: url(assets/project8.png);
+ background-image: url(assets/project8.png);
 }
 
 .work9 {
-  background-image: url(assets/project9.png);
+ background-image: url(assets/project9.png);
 }
 
 .work10 {
-  background-image: url(assets/project10.png);
+ background-image: url(assets/project10.png);
 }
 
 .work11 {
-  background-image: url(assets/project11.png);
+ background-image: url(assets/project11.png);
 }
 
 .work12 {
-  background-image: url(assets/project12.png);
+ background-image: url(assets/project12.png);
 }
 
 .vertical {
-  height: 460px;
-  width: 85%;
-  p {
-    align-self: flex-start;
-  }
+ height: 460px;
+ width: 85%;
+ p {
+  align-self: flex-start;
+ }
 }

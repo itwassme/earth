@@ -123,7 +123,7 @@
 }
 
 .fb-2 {
-  background-image: url(assets/fb2.jpg);
+  background-image: url(assets/facebook/fb2.jpg);
 }
 
 .fb-3 {
@@ -131,71 +131,147 @@
 }
 
 .fb-4 {
-  background-image: url(assets/fb4.jpg);
+  background-image: url(assets/facebook/fb4.jpg);
 }
 
 .fb-5 {
-  background-image: url(assets/fb5.jpg);
+  background-image: url(assets/facebook/fb5.jpg);
 }
 
 .fb-6 {
-  background-image: url(assets/fb6.jpg);
+  background-image: url(assets/facebook/fb6.jpg);
 }
 
 .fb-7 {
-  background-image: url(assets/fb7.jpg);
+  background-image: url(assets/facebook/fb7.jpg);
 }
 
 .fb-8 {
-  background-image: url(assets/fb8.jpg);
+  background-image: url(assets/facebook/fb8.jpg);
 }
 
 .fb-9 {
-  background-image: url(assets/fb9.jpg);
+  background-image: url(assets/facebook/fb9.jpg);
 }
 
 .fb-10 {
-  background-image: url(assets/fb10.jpg);
+  background-image: url(assets/facebook/fb10.jpg);
 }
 
 // mangrove
 .mangrove-hero {
-  background-image: url(assets/mg1.jpg);
+  background-image: url(assets/mangrove/mg1.jpg);
 }
 
 .mg-2 {
   width: 100%;
-  background-image: url(assets/mg2.jpg);
+  background-image: url(assets/mangrove/mg2.jpg);
 }
 
 .mg-3 {
   width: 100%;
-  background-image: url(assets/mg3.jpg);
+  background-image: url(assets/mangrove/mg3.jpg);
 }
 
 .mg-4 {
   width: 100%;
-  background-image: url(assets/mg4.jpg);
+  background-image: url(assets/mangrove/mg4.jpg);
 }
 
 .mg-5 {
   width: 100%;
-  background-image: url(assets/mg5.jpg);
+  background-image: url(assets/mangrove/mg5.jpg);
 }
 
 .mg-6 {
   width: 100%;
-  background-image: url(assets/mg6.jpg);
+  background-image: url(assets/mangrove/mg6.jpg);
 }
+
+// Naver Partner square
+.nvp1 {
+  width: 100%;
+  background-image: url(assets/naverpartner/nvp1.png);
+}
+
+// Sorrynotsorry
+.sns1 {
+  width: 100%;
+  background-image: url(assets/sorrynotsorry/sns1.png);
+}
+
+// washenjoy
+
+.wsn1 {
+  width: 100%;
+  background-image: url(assets/washenjoy/wsn1.png);
+}
+
+// hisbeans
+
+.hsb1 {
+  width: 100%;
+  background-image: url(assets/hisbeans/hsb1.jpg);
+}
+
+// lgchemistry
+
+.lgc1 {
+  width: 100%;
+  background-image: url(assets/lgchemistry/lgc1.jpg);
+}
+
+// xiv
+
+.xiv1 {
+  width: 100%;
+  background-image: url(assets/xiv/xiv1.jpg);
+}
+
+// heyokr
+
+.ho1 {
+  width: 100%;
+  background-image: url(assets/heyokr/ho1.jpg);
+}
+
+// 28adolescent
+
+.adolescent1 {
+  width: 100%;
+  background-image: url(assets/28adolescent/adolescent1.jpg);
+}
+
+// safehouse
+
+.sh1 {
+  width: 100%;
+  background-image: url(assets/safehouse/sh1.jpg);
+}
+
+// samsung
+
+.ssmst1 {
+  width: 100%;
+  background-image: url(assets/samsungsmart/ssmt1.jpg);
+}
+
 
 // Other projects
 
 .other-projects {
   grid-template-rows: 40px 1fr;
+  a, a:hover {
+    border: none;
+  }
   @media (max-width: $screen-mobile) {
     margin-top: 4rem;
     margin-bottom: 6rem;
   }
+}
+
+.other-project-0{
+  background-image: url(assets/work1.jpg);
 }
 
 .other-project-1 {
