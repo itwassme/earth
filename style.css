@@ -906,11 +906,6 @@ body.seed {
     white-space: normal;
   }
 }
-@media (max-width: 680px) {
-  .grid-left {
-    margin-bottom: 1rem;
-  }
-}
 
 .grid-right {
   grid-column: span 9;
@@ -1248,31 +1243,6 @@ header .mobile-menu {
   background-image: url(assets/samsungsmart/ssmt1.jpg);
 }
 
-.other-projects {
-  grid-template-rows: 40px 1fr;
-}
-.other-projects a, .other-projects a:hover {
-  border: none;
-}
-@media (max-width: 680px) {
-  .other-projects {
-    margin-top: 4rem;
-    margin-bottom: 6rem;
-  }
-}
-
-.other-project-0 {
-  background-image: url(assets/work1.jpg);
-}
-
-.other-project-1 {
-  background-image: url(assets/project1.png);
-}
-
-.other-project-2 {
-  background-image: url(assets/project3.png);
-}
-
 @media (max-width: 680px) {
   .half-in-mobile {
     width: 50%;
@@ -1290,6 +1260,59 @@ header .mobile-menu {
   .mb-margin-bottom {
     margin-bottom: 2rem;
   }
+}
+
+.other-projects {
+  grid-template-rows: 40px 1fr;
+}
+.other-projects a,
+.other-projects a:hover {
+  border: none;
+}
+@media (max-width: 680px) {
+  .other-projects {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+}
+
+.other-projects p.other-project-headline {
+  grid-row: 1/2;
+  grid-column: span 12;
+}
+.other-projects .other-project-first {
+  grid-column: 1/7;
+  height: 100%;
+  grid-row: 2/3;
+}
+.other-projects .other-project-second {
+  grid-column: 7/13;
+  height: 100%;
+  grid-row: 2/3;
+}
+@media (max-width: 680px) {
+  .other-projects .other-project-headline {
+    margin-bottom: 2rem;
+  }
+  .other-projects .other-project-first {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .other-projects .other-project-second {
+    width: 100%;
+  }
+}
+
+.other-project-0 {
+  background-image: url(assets/work1.jpg);
+}
+
+.other-project-1 {
+  background-image: url(assets/project1.png);
+}
+
+.other-project-2 {
+  background-image: url(assets/project3.png);
 }
 
 footer {
